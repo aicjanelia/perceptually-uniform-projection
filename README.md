@@ -2,7 +2,7 @@
 
 PUP is an ImageJ/Fiji macro that uses the CIELAB color space to generate a perceptually accurate display of two grayscale images as a single color image. More information about PUP and its derivation can be found in the following publication:
 
-*Taylor, A. B., Ioannou, M. S., Watanabe, T., Hahn, K., & CHEW, T. L. (2017). Perceptually accurate display of two greyscale images as a single colour image. Journal of microscopy, 268(1), 73-83.* <https://doi.org/10.1111/jmi.12588>
+*Taylor, A. B., Ioannou, M. S., Watanabe, T., Hahn, K., & Chew, T. L. (2017). Perceptually accurate display of two greyscale images as a single colour image. Journal of microscopy, 268(1), 73-83.* <https://doi.org/10.1111/jmi.12588>
 
 ## File Descriptions
 
