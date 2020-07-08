@@ -213,9 +213,9 @@ for (z=0; z<5; z++) {
 
 	selectWindow("PUP");
 
-	//REQUIRES color plugin from .... https://sourceforge.net/projects/ij-plugins/files/ij-plugins_toolkit/v.1.9.1/
+	//REQUIRES ijp-color plugin from https://github.com/ij-plugins/ijp-toolkit
 	//The native ImageJ 'RGB Color' command does not make an approximation when Lab values are out of gamut.
-	run("RGB to L*a*b* stack");  // New image generated is renamed "original - L*a*b*"
+	run("RGB to L*a*b* Stack");  // New image generated is renamed "original - L*a*b*"
 
 	//Closes the input 'PUP' image
 	selectWindow("PUP");
@@ -233,8 +233,8 @@ for (z=0; z<5; z++) {
 	run("Select None");
 
 	//Converts Lab back to RGB...
-	//REQUIRES color plugin from .... https://sourceforge.net/projects/ij-plugins/files/ij-plugins_toolkit/v.1.9.1/
-	run("L*a*b* stack to RGB");  // The new image is renamed "original - RGB"
+	//REQUIRES ijp-color plugin from https://github.com/ij-plugins/ijp-toolkit
+	run("L*a*b* Stack to RGB");  // The new image is renamed "original - RGB"
 
 	//Closes the input 'PUP' image
 	selectWindow("PUP");
