@@ -12,11 +12,12 @@ Our code consists of three files:
 * `PUP_NR.lut` - the narrow range lookup table
 * `PUP_BR.lut` - the broad range lookup table
 
-## Installation
-
-1. Place the lookup table files (i.e., `PUP_NR.lut` and `PUP_BR.lut`) in the default ImageJ `luts` folder (typically, `ImageJ.app/luts` or `Fiji.app/luts`).
-2. Open/Run `PUP_CODE.ijm` through the ImageJ/Fiji menu system (`Plugins > Macros > Run…`).  Alternatively, drag-and-drop the file onto the ImageJ/Fiji toolbar.
-
 ## Dependencies
 
-PUP code depends on `ijp-toolkit` written by Jarek Sacha. IJ-Plugins Toolkit comes installed in newer versions of ImageJ/Fiji; however, it can be installed in older versions by following the instructions on <https://github.com/ij-plugins/ijp-toolkit/wiki>.
+PUP code depends on `ijp-color` written by Jarek Sacha. The *Color and Multiband Processing* plugin (which is part of *IJ-Plugins Toolkit*) can be installed through the ImageJ/Fiji update site <https://sites.imagej.net/IJ-Plugins/>. Instructions can be found at <https://github.com/ij-plugins/ijp-toolkit/wiki>.
+
+## Installation
+
+1. Install IJ-Plugins Toolkit dependency.
+2. Place the lookup table files (i.e., `PUP_NR.lut` and `PUP_BR.lut`) in the default ImageJ `luts` folder (typically, `ImageJ.app/luts` or `Fiji.app/luts`).
+3. Open/Run `PUP_CODE.ijm` through the ImageJ/Fiji menu system (`Plugins > Macros > Run…`).  Alternatively, drag-and-drop the file onto the ImageJ/Fiji toolbar.
